@@ -1,0 +1,131 @@
+body {
+    background-image: url(http://subtlepatterns.com/patterns/grey.png);
+    background-position: initial initial;
+    background-repeat: initial initial;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Dosis', serif;
+}
+
+h1 {
+    font-weight: 400;
+    line-height: 1.15;
+    font-size: 2.5em;
+    margin: 0 0 0.575em 0;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 1.125em;
+    line-height: 1.27;
+    margin: 0 0 0.575em 0;
+}
+
+h3 {
+    font-size: 1.4em;
+    line-height: 1.27;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+a[target=_blank]:after {
+    content: "\f045";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: darkgray;
+    font-size: 0.8em;
+    padding-left: 0.5em;
+    position: relative;
+    bottom: 0.5em;
+}
+
+/* -------------------------------------
+    HEADER
+------------------------------------- */
+header {
+    margin-bottom: 3em !important;
+}
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    margin: 0.2em 0 0.3em 0;
+}
+header h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+/* -------------------------------------
+    EXPERIENCE
+------------------------------------- */
+.exp {
+    margin-left: 2em;
+    margin-bottom: 3em;
+}
+.exp h1 {
+    font-size: 2em;
+    margin: 0;
+}
+.exp h2 {
+    font-size: 1.em;
+    font-weight: 800;
+    margin: 0;
+    padding-top: 0.4em;
+}
+.exp hgroup {
+    margin-bottom: 1em !important;
+}
+.exp ul li{
+  float: left;
+  width: 40%;
+}
+
+/* -------------------------------------
+    WORK
+------------------------------------- */
+.works h2 {
+    font-size: 1.6em;
+    font-weight: 600;
+}
+.works a, .works a:visited {
+    color: gray;
+}
+.works a:hover {
+    text-decoration: underline;
+}
+.works a.mainLink {
+    font-size: 0.95em;
+}
+.works p{
+    margin-top: 0.3em;
+}
+.works img {
+    border: 1px gray solid;
+    width: 100%;
+}
+
+/* -------------------------------------
+    MISC
+------------------------------------- */
+.mainWrapper {
+    padding: 2em;
+
+    -moz-box-shadow: 0px 0px 10px 0px #656565;
+    -webkit-box-shadow: 0px 0px 10px 0px #656565;
+    -o-box-shadow: 0px 0px 10px 0px #656565;
+    box-shadow: 0px 0px 10px 0px #656565;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=10);
+}
+
+.circle {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
