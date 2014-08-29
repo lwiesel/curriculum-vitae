@@ -174,9 +174,15 @@ header h2 {
     font-weight: 800;
     margin: 0;
     padding-top: 0.4em;
+    padding-bottom: 0.4em;
 }
 .edu hgroup {
-    margin-bottom: 1em !important;
+    margin-bottom: 0em !important;
+}
+.edu hgroup a{
+    margin-left: 1em !important;
+    position: relative;
+    top: -0.5em;
 }
 .edu ul.row{
   margin-left: 1.1em;
@@ -212,6 +218,23 @@ header h2 {
     -o-box-shadow: 0px 0px 10px 0px #656565;
     box-shadow: 0px 0px 10px 0px #656565;
     filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=10);
+}
+
+article {
+    position: relative;
+}
+
+time {
+    position: absolute;
+    left: -5em;
+    top: 2.5em;
+    text-align: right;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    writing-mode: lr-bt ;
+
+    font-size: 0.95em;
 }
 
 .circle {
