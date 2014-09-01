@@ -46,6 +46,10 @@ a[target=_blank]:after {
     bottom: 0.5em;
 }
 
+[class*="column"] + [class*="column"]:last-child {
+    float: left;
+}
+
 /* -------------------------------------
     DownloadLink
 ------------------------------------- */
