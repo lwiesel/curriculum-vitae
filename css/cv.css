@@ -55,7 +55,8 @@ a[target=_blank]:after {
 ------------------------------------- */
 .downloadLinks .downloadPDF,
 .downloadLinks .seeGithub,
-.downloadLinks .seeTwitter
+.downloadLinks .seeTwitter,
+.downloadLinks .sendMail
 {
     padding: 0.5em 1em;
     display: inline-block;
@@ -67,7 +68,8 @@ a[target=_blank]:after {
 
 .downloadLinks .downloadPDF:after,
 .downloadLinks .seeGithub:after,
-.downloadLinks .seeTwitter:after
+.downloadLinks .seeTwitter:after,
+.downloadLinks .sendMail:after
 {
     content: none;
 }
@@ -91,6 +93,13 @@ a[target=_blank]:after {
 }
 .downloadLinks .seeTwitter:hover {
     background-color: rgba(85,172,238,0.6);
+}
+
+.downloadLinks .sendMail {
+    background-color: rgba(112,201,112,0.5);
+}
+.downloadLinks .sendMail:hover {
+    background-color: rgba(112,201,112,0.7);
 }
 
 /* -------------------------------------
