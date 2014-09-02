@@ -30,7 +30,7 @@ h3 {
 }
 
 ul {
-    margin-bottom: 0;
+    margin-bottom: 0.5em;
 }
 
 a[target=_blank]:after {
@@ -108,6 +108,10 @@ header h2 {
     font-size: 1.5em;
     margin: 0;
 }
+header h3 {
+    font-size: 1.3em;
+    margin: 0;
+}
 
 /* -------------------------------------
     EXPERIENCE
@@ -128,10 +132,6 @@ header h2 {
 }
 .exp hgroup {
     margin-bottom: 1em !important;
-}
-.exp ul li{
-  float: left;
-  width: 40%;
 }
 
 /* -------------------------------------
